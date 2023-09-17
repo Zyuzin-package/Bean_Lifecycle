@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
 public class BFA implements BeanFactoryAware {
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-
+        System.out.println("Set BeanFactory");
     }
 }
